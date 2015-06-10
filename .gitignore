@@ -1,2 +1,9 @@
 node_modules
 npm-debug.log
+
+# temporary meteor files
+/package.js
+versions.json
+
+# temporary file created by browserify
+bundle.js
