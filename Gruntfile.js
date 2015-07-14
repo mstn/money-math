@@ -24,7 +24,7 @@ module.exports = function(grunt) {
         command: 'rm -rf .build.* versions.json package.js'
       },
       'meteor-test': {
-        command: 'node_modules/.bin/spacejam --mongo-url mongodb:// test-packages ./'
+        command: 'node_modules/spacejam/bin/spacejam --mongo-url mongodb:// test-packages ./'
       },
       'meteor-publish': {
         command: 'meteor publish --create'
