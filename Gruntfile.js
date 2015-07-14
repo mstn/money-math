@@ -21,7 +21,7 @@ module.exports = function(grunt) {
       // !- only add this if there was no "clean" task
       'meteor-cleanup': {
         // remove build files and package.js
-        command: 'rm -rf .build.* versions.json package.js'
+        command: 'rm -rf .build.* versions.json package.js bundle.js'
       },
       'meteor-test': {
         command: 'node_modules/spacejam/bin/spacejam --mongo-url mongodb:// test-packages ./'
